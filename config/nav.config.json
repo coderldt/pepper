@@ -36,6 +36,10 @@
           [
             "link",
             "link 链接"
+          ],
+          [
+            "radio",
+            "radio 单选按钮"
           ]
         ]
       }
@@ -69,7 +73,8 @@
         "children": [
           "button",
           "input",
-          "link"
+          "link",
+          "radio"
         ]
       }
     ]

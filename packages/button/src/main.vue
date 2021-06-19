@@ -22,7 +22,7 @@ export default {
     type: {
       type: String,
       default: '',
-      validator: val => ['yellow', 'green', 'red', 'blue', 'gray', 'pepper'].includes(val)
+      validator: val => ['yellow', 'green', 'red', 'blue', 'gray', 'pepper', ''].includes(val)
     },
     size: {
       type: String,

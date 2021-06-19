@@ -65,7 +65,7 @@
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |
 |---------- |-------- |---------- |-------------  |-------- |
 | size     | 尺寸   | string  |   s / m / l            |    m    |
-| type     | 类型   | string    |   yellow / green / red / blue / gray / pepper |     ''    |
+| type     | 类型   | string    |   yellow / green / red / blue / gray / pepper / '' |     ''    |
 | circle     | 是否圆形按钮   | boolean    | — | false   |
 | disabled  | 是否禁用状态    | boolean   | —   | false   |
 | text  | 是否文本文档 | boolean   |  —  |  false  |

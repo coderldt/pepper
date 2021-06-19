@@ -1,7 +1,7 @@
 import { PepperComponent, PepperComponentSize } from './component'
 
 /** Button type */
-export type ButtonType = 'yellow' | 'green' | 'red' | 'blue' | 'gray' | 'pepper'
+export type ButtonType = 'yellow' | 'green' | 'red' | 'blue' | 'gray' | 'pepper' | ''
 
 /** Button Component */
 export declare class PButton extends PepperComponent {

@@ -3,11 +3,15 @@
 import Button from '../packages/button/index.js';
 import Input from '../packages/input/index.js';
 import Link from '../packages/link/index.js';
+import Radio from '../packages/radio/index.js';
+import RadioGroup from '../packages/radio-group/index.js';
 
 const components = [
   Button,
   Input,
-  Link
+  Link,
+  Radio,
+  RadioGroup
 ]
 
 const install = function(Vue) {
@@ -27,5 +31,7 @@ export default {
   install,
   Button,
   Input,
-  Link
+  Link,
+  Radio,
+  RadioGroup
 }
